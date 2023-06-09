@@ -8,6 +8,7 @@ CNNs are widely used for image processing tasks. They are effective at automatic
 LSTM is a type of recurrent neural network (RNN) that is capable of capturing long-term dependencies in sequential data. In the image captioning task, LSTM is used to generate a caption word by word based on the extracted image features. At each time step, the LSTM takes the previous hidden state, the previous word embedding, and the image features as inputs and predicts the next word in the sequence.
 
 **👉 Implementation:**
+
 a. Preprocess the image and text data.
 
 b. Define the CNN encoder model by removing the last classification layer from a pre-trained CNN model and adding a dense layer to produce the image feature vector.
