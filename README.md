@@ -16,6 +16,7 @@ e. Train the model using the preprocessed data, adjusting the weights of both th
 f. Generate captions for new images by feeding the image through the trained model.
 
 📌 To expedite the training process and achieve faster results, utilizing a **Kaggle notebook** with **GPU** support is recommended for building an image caption generator.
+
 📌 Dataset File : https://www.kaggle.com/datasets/adityajn105/flickr8k
 
 
