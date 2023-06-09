@@ -9,11 +9,17 @@ LSTM is a type of recurrent neural network (RNN) that is capable of capturing lo
 
 **👉 Implementation:**
 a. Preprocess the image and text data.
+
 b. Define the CNN encoder model by removing the last classification layer from a pre-trained CNN model and adding a dense layer to produce the image feature vector.
+
 c. Define the LSTM decoder model, which takes the image features, previous word embeddings, and previous hidden states as inputs and predicts the next word.
+
 d. Define the loss function, typically using cross-entropy, and compile the model.
+
 e. Train the model using the preprocessed data, adjusting the weights of both the CNN encoder and LSTM decoder.
+
 f. Generate captions for new images by feeding the image through the trained model.
+
 
 📌 To expedite the training process and achieve faster results, utilizing a **Kaggle notebook** with **GPU** support is recommended for building an image caption generator.
 
