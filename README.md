@@ -5,7 +5,7 @@ In today's digitally-driven world, there has been a surge in the development and
 CNNs are widely used for image processing tasks. They are effective at automatically extracting relevant features from images. In the context of image captioning, a pre-trained CNN such as VGG16 is used as a feature extractor. The output of the CNN is a feature vector that represents the high-level features of the input image.
 
 **👉 Long Short-Term Memory (LSTM):**
-LSTM is a type of recurrent neural network (RNN) that is capable of capturing long-term dependencies in sequential data. In the image captioning task, LSTM is used to generate a caption word by word based on the extracted image features. At each time step, the LSTM takes the previous hidden state, the previous word embedding, and the image features as inputs and predicts the next word in the sequence.
+LSTM is a type of recurrent neural network (RNN) that is capable of capturing long-term dependencies in sequential data. In the image captioning task, LSTM is used to generate a caption word by word based on the extracted image features. At each time step, the LSTM takes the previous hidden state, the previous word embedding, and the image features as inputs and predicts the next word in the sequence. 
 
 **👉 Implementation:**
 
